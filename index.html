@@ -1,36 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+  <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Module#2 Solution</title>
-	<link rel="stylesheet" type="text/css" href="module2-solution/css/styles.css">
-</head>
+	<title>Module3-Solution</title>
+	<link rel="stylesheet" type="text/css" href="module3-solution/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="module3-solution/css/styles.css">
+  </head>
 <body>
+  <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  	<div class="container">
+   	  	<div class="navbar-header">
+  	  	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+  	  	  <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
+  	  	</div> <!--.navbar-header-->
+        <nav id="bs-navbar" class="collapse navbar-collapse">
+  		  <ul id="nav-list" class="nav navbar-nav navbar-right">
+  	  		<li><a href="#chicken" class="hidden-sm hidden-md hidden-lg">Chicken</a></li>
+  	  		<li><a href="#beef" class="hidden-sm hidden-md hidden-lg">Beef</a></li>
+  	  		<li><a href="#sushi" class="hidden-sm hidden-md hidden-lg">Sushi</a></li>
+  	  	  </ul> <!-- #nav-list -->
+  	  	</nav> <!-- #bs-navbar -->
+  	</div> <!-- .container -->
+  </header>
 
-<h1>Our Menu</h1>
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<p class="menu-button" id="chicken"><a href="#chicken">Chicken</a></p>
-			<p class="menu-item">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-	
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<p class="menu-button" id="beef"><a href="#beef">Beef</a></p>
-			<p class="menu-item">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-	
-		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-			<p class="menu-button" id="sushi"><a href="#sushi">Sushi</a></p>
-			<p class="menu-item">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-	</div>
+  <div id="main-content" class="container">
+  	<h1 id="main-menu" class="text-center">Our Menu</h1>
+  	<div class="row">
+  	  <div class="menu-tile col-xs-12 col-sm-6 col-md-4 col-lg-4">
+  		<div id="chicken">
+  		  <h3 class="text-center">Chicken</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida lectus urna, ac auctor massa lobortis non. Donec hendrerit ut mi vitae commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ullamcorper arcu eu convallis rutrum. Maecenas facilisis pulvinar sem, accumsan euismod eros commodo vel. In leo quam, tristique sit amet ullamcorper vel, egestas eu dui. Morbi consequat mauris ac tellus porta tempor. Ut imperdiet ex nec nisi interdum, nec hendrerit nisl aliquam. Nulla commodo dolor eget lacinia bibendum. Sed consequat pellentesque urna condimentum eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut ligula justo. Integer quis commodo eros, id aliquet tellus. Fusce nec magna vitae sem faucibus bibendum id non libero. Aenean bibendum purus nec neque dignissim, hendrerit ultricies libero dignissim. Vestibulum eu sapien quis enim finibus elementum. In ut blandit dolor. Donec semper nisi enim, sit amet pellentesque lorem pulvinar in. Maecenas tincidunt varius enim, lobortis auctor turpis tincidunt at. Donec scelerisque finibus dolor eu venenatis. Donec id vestibulum erat, vitae faucibus purus. Cras suscipit pellentesque ligula eget vestibulum. Suspendisse sodales fringilla lorem nec consequat. Etiam commodo neque justo, vel ultrices mauris condimentum sed. Aliquam maximus cursus tortor nec volutpat. Integer condimentum, metus sit amet congue imperdiet, nisl turpis tincidunt est, et rhoncus quam tortor ut nulla. Aliquam cursus est vitae semper cursus. Donec pharetra orci vel magna pharetra, ut pulvinar odio vehicula. Morbi fermentum nisl non vehicula porttitor. Maecenas nulla enim, pellentesque sit amet pellentesque eget, faucibus vitae metus. Nam venenatis sem lorem, posuere facilisis nulla sollicitudin a. Suspendisse sodales sem et velit auctor pharetra. Quisque aliquet accumsan enim eu vestibulum. Cras sit amet porta ligula. Integer tempor, libero vel semper hendrerit, sem quam molestie eros, id viverra tellus est ut neque.</p>
+		  
+		  <p id="back-to-top" class="text-right"><a class="glyphicon glyphicon-home" href="#top"><span> Back to Top</span></a></p>
+  		</div>
+  	  </div>
 
+  	  <div class="menu-tile col-xs-12 col-sm-6 col-md-4 col-lg-4">
+  		<h3 id="beef" class="text-center">Beef</h3>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida lectus urna, ac auctor massa lobortis non. Donec hendrerit ut mi vitae commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ullamcorper arcu eu convallis rutrum. Maecenas facilisis pulvinar sem, accumsan euismod eros commodo vel. In leo quam, tristique sit amet ullamcorper vel, egestas eu dui. Morbi consequat mauris ac tellus porta tempor. Ut imperdiet ex nec nisi interdum, nec hendrerit nisl aliquam. Nulla commodo dolor eget lacinia bibendum. Sed consequat pellentesque urna condimentum eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut ligula justo. Integer quis commodo eros, id aliquet tellus. Fusce nec magna vitae sem faucibus bibendum id non libero. Aenean bibendum purus nec neque dignissim, hendrerit ultricies libero dignissim. Vestibulum eu sapien quis enim finibus elementum. In ut blandit dolor. Donec semper nisi enim, sit amet pellentesque lorem pulvinar in. Maecenas tincidunt varius enim, lobortis auctor turpis tincidunt at. Donec scelerisque finibus dolor eu venenatis. Donec id vestibulum erat, vitae faucibus purus. Cras suscipit pellentesque ligula eget vestibulum. Suspendisse sodales fringilla lorem nec consequat. Etiam commodo neque justo, vel ultrices mauris condimentum sed. Aliquam maximus cursus tortor nec volutpat. Integer condimentum, metus sit amet congue imperdiet, nisl turpis tincidunt est, et rhoncus quam tortor ut nulla. Aliquam cursus est vitae semper cursus. Donec pharetra orci vel magna pharetra, ut pulvinar odio vehicula. Morbi fermentum nisl non vehicula porttitor. Maecenas nulla enim, pellentesque sit amet pellentesque eget, faucibus vitae metus. Nam venenatis sem lorem, posuere facilisis nulla sollicitudin a. Suspendisse sodales sem et velit auctor pharetra. Quisque aliquet accumsan enim eu vestibulum. Cras sit amet porta ligula. Integer tempor, libero vel semper hendrerit, sem quam molestie eros, id viverra tellus est ut neque.</p>
+  		<p id="back-to-top" class="text-right"><a href="#top" class="glyphicon glyphicon-home"><span> Back to Top</span></a></p>
+  	  </div>
+
+  	  <div class="menu-tile col-xs-12 col-sm-12 col-md-4 col-lg-4">
+  		<h3 id="sushi" class="text-center">Sushi</h3>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida lectus urna, ac auctor massa lobortis non. Donec hendrerit ut mi vitae commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ullamcorper arcu eu convallis rutrum. Maecenas facilisis pulvinar sem, accumsan euismod eros commodo vel. In leo quam, tristique sit amet ullamcorper vel, egestas eu dui. Morbi consequat mauris ac tellus porta tempor. Ut imperdiet ex nec nisi interdum, nec hendrerit nisl aliquam. Nulla commodo dolor eget lacinia bibendum. Sed consequat pellentesque urna condimentum eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut ligula justo. Integer quis commodo eros, id aliquet tellus. Fusce nec magna vitae sem faucibus bibendum id non libero. Aenean bibendum purus nec neque dignissim, hendrerit ultricies libero dignissim. Vestibulum eu sapien quis enim finibus elementum. In ut blandit dolor. Donec semper nisi enim, sit amet pellentesque lorem pulvinar in. Maecenas tincidunt varius enim, lobortis auctor turpis tincidunt at. Donec scelerisque finibus dolor eu venenatis. Donec id vestibulum erat, vitae faucibus purus. Cras suscipit pellentesque ligula eget vestibulum. Suspendisse sodales fringilla lorem nec consequat. Etiam commodo neque justo, vel ultrices mauris condimentum sed. Aliquam maximus cursus tortor nec volutpat. Integer condimentum, metus sit amet congue imperdiet, nisl turpis tincidunt est, et rhoncus quam tortor ut nulla. Aliquam cursus est vitae semper cursus. Donec pharetra orci vel magna pharetra, ut pulvinar odio vehicula. Morbi fermentum nisl non vehicula porttitor. Maecenas nulla enim, pellentesque sit amet pellentesque eget, faucibus vitae metus. Nam venenatis sem lorem, posuere facilisis nulla sollicitudin a. Suspendisse sodales sem et velit auctor pharetra. Quisque aliquet accumsan enim eu vestibulum. Cras sit amet porta ligula. Integer tempor, libero vel semper hendrerit, sem quam molestie eros, id viverra tellus est ut neque.</p>
+  		<p id="back-to-top" class="text-right"><a href="#top" class="glyphicon glyphicon-home"><span> Back to Top</span></a></p>
+  	  </div>
+
+  	</div>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="module3-solution/js/jquery-2.1.4.min.js"></script>
+  <script src="module3-solution/js/bootstrap.min.js"></script>
+  <script src="module3-solution/js/script.js"></script>
 </body>
 </html>
