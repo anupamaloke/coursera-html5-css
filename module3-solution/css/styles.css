@@ -79,3 +79,7 @@ body {
 p#back-to-top {
 	margin-top: -10px;
 }
+
+.panel-footer {
+	color: #000;
+}
